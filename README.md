@@ -81,7 +81,7 @@ uv run jupyter lab
 3. Em seguida, acesse a pasta `02. Modelo`, abra o notebook de modelagem e clique em **Run All** para treinar os algoritmos e gerar os artefatos conformal.
 4. Por fim, na pasta `04. Aplicacao`, inicie o simulador interativo:
 ```bash
-streamlit run app.py
+uv run streamlit run "04. Aplicacao/app.py"
 ```
 
 
