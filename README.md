@@ -77,11 +77,11 @@ uv run jupyter lab
 ```
 
 
-2. No navegador que se abrirá, navegue até a pasta `01. Extracao de Dados` e abra o notebook de extração. Pressione **Run All** para executar a raspagem do catálogo da Dafiti.
+2. No navegador que se abrirá, navegue até a pasta `01.Extracao de Dados` e abra o notebook de extração. Pressione **Run All** para executar a raspagem do catálogo da Dafiti.
 3. Em seguida, acesse a pasta `02. Modelo`, abra o notebook de modelagem e clique em **Run All** para treinar os algoritmos e gerar os artefatos conformal.
-4. Por fim, na pasta `04. Aplicacao`, inicie o simulador interativo:
+4. Por fim, na pasta `04.Aplicacao`, inicie o simulador interativo:
 ```bash
-uv run streamlit run "04. Aplicacao/app.py"
+uv run streamlit run "04.Aplicacao/app.py"
 ```
 
 
@@ -97,10 +97,10 @@ uv run jupyter lab
 
 
 2. Abra o notebook de download **baixar_dados** localizado na raiz e clique em **Run All** para obter a base consolidada.
-3. Abra o notebook na pasta `02. Modelo` e execute **Run All** para processar os dados e salvar os artefatos.
+3. Abra o notebook na pasta `02.Modelo` e execute **Run All** para processar os dados e salvar os artefatos.
 4. Inicie o servidor do simulador B2B no terminal:
 ```bash
-uv run streamlit run "04. Aplicacao/app.py"
+uv run streamlit run "04.Aplicacao/app.py"
 ```
 
 
@@ -110,7 +110,7 @@ O servidor web do Streamlit será iniciado localmente e a interface do simulador
 
 ### 6. Relatório e Análise dos Modelos
 
-O projeto conta com uma documentação analítica detalhada localizada na pasta `03. Relatorio`.
+O projeto conta com uma documentação analítica detalhada localizada na pasta `03.Relatorio`.
 
 * **Conteúdo:** A pasta abriga um notebook Jupyter contendo a exploração completa dos dados, a avaliação estatística detalhada das predições e a interpretação visual dos gráficos SHAP gerados para os modelos de média e variância.
 * **Como visualizar:** Você pode abrir o relatório interativamente executando o Jupyter Lab a partir da raiz do repositório:
@@ -119,4 +119,4 @@ uv run jupyter lab
 ```
 
 
-Em seguida, navegue até a pasta `03. Relatorio` e abra o notebook correspondente para acompanhar a exploração dos resultados e métricas.
+Em seguida, navegue até a pasta `03.Relatorio` e abra o notebook correspondente para acompanhar a exploração dos resultados e métricas.
