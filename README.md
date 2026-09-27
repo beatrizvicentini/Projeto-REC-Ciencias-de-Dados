@@ -92,6 +92,7 @@ uv run jupyter lab
 
 
 2. Abra o notebook de download **baixar_dados** localizado na raiz e clique em **Run All** para obter a base consolidada.
+2.1. Alternativa manual: se preferir, acesse [esta pasta no Drive](https://drive.google.com/drive/folders/1ELvahzSeIOTHKbfjhb57MJiYh3JX97Hq?usp=sharing), baixe tudo e extraia para 00.Dados/ na raiz do projeto.
 3. Abra o notebook na pasta `02.Modelo` e execute **Run All** para processar os dados e salvar os artefatos.
 4. Inicie o servidor do simulador B2B no terminal:
 ```bash
