@@ -38,11 +38,6 @@ Os artefatos de modelagem foram envelopados em uma aplicação *frontend* intera
 
 
 * **Transparência Matemática:** A aplicação esclarece que o resultado não é uma subtração exata (Preço - Pix), mas a esperança condicional estatística ($E[Y\vert{}X]$) baseada no histórico. Além disso, exibe um gráfico SHAP *Waterfall* em tempo real para justificar o alargamento ou estreitamento da margem recomendada na simulação atual.
-
-Entendido perfeitamente. Se o objetivo é manter os arquivos em formato de notebook (`.ipynb`) e instruir o usuário a executá-los interativamente pelo console, podemos simplificar a documentação para refletir essa abordagem exata com o `uv run jupyter lab`.
-
-Aqui está a seção do README ajustada para instruir a execução via Jupyter Lab acionado pelo `uv`:
-
 ---
 
 ## 5. Configuração e Execução do Ambiente
